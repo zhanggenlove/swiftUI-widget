@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED37E56D25392F94001265DA /* calenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E56C25392F94001265DA /* calenderView.swift */; };
+		ED37E56E25392F94001265DA /* calenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E56C25392F94001265DA /* calenderView.swift */; };
+		ED37E5742539304F001265DA /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5732539304F001265DA /* CalenderHelper.swift */; };
+		ED37E5752539304F001265DA /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5732539304F001265DA /* CalenderHelper.swift */; };
+		ED37E579253930CA001265DA /* Calender+Date Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E578253930CA001265DA /* Calender+Date Extension.swift */; };
+		ED37E57A253930CA001265DA /* Calender+Date Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E578253930CA001265DA /* Calender+Date Extension.swift */; };
+		ED37E57E253931F4001265DA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E57D253931F4001265DA /* Constant.swift */; };
+		ED37E57F253931F4001265DA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E57D253931F4001265DA /* Constant.swift */; };
+		ED37E585253933F1001265DA /* CalenderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E584253933F1001265DA /* CalenderWidget.swift */; };
+		ED37E58A25394D22001265DA /* countdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E58925394D22001265DA /* countdownView.swift */; };
+		ED37E58B25394D22001265DA /* countdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E58925394D22001265DA /* countdownView.swift */; };
+		ED37E59125394F28001265DA /* CountDownWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E59025394F28001265DA /* CountDownWidget.swift */; };
+		ED37E5952539511A001265DA /* CountDownIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5942539511A001265DA /* CountDownIntent.intentdefinition */; };
+		ED37E59A253961FE001265DA /* CountDownIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5942539511A001265DA /* CountDownIntent.intentdefinition */; };
+		ED37E59E2539779B001265DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E59D2539779B001265DA /* LocationManager.swift */; };
+		ED37E59F2539779B001265DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E59D2539779B001265DA /* LocationManager.swift */; };
+		ED37E5B025399265001265DA /* weatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5AF25399265001265DA /* weatherView.swift */; };
+		ED37E5B125399265001265DA /* weatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5AF25399265001265DA /* weatherView.swift */; };
+		ED37E5B725399273001265DA /* WeatherHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5B625399273001265DA /* WeatherHandler.swift */; };
+		ED37E5B825399273001265DA /* WeatherHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5B625399273001265DA /* WeatherHandler.swift */; };
+		ED37E5BC25399854001265DA /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5BB25399854001265DA /* WeatherData.swift */; };
+		ED37E5BD25399854001265DA /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5BB25399854001265DA /* WeatherData.swift */; };
+		ED37E5C125399BFE001265DA /* WeatherDataFliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5C025399BFE001265DA /* WeatherDataFliter.swift */; };
+		ED37E5C225399BFE001265DA /* WeatherDataFliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5C025399BFE001265DA /* WeatherDataFliter.swift */; };
+		ED37E5C625399F17001265DA /* WeatherVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5C525399F17001265DA /* WeatherVM.swift */; };
+		ED37E5C725399F17001265DA /* WeatherVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37E5C525399F17001265DA /* WeatherVM.swift */; };
+		ED5AE58F253AB13F000EE882 /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AE58E253AB13F000EE882 /* WeatherWidget.swift */; };
+		EDCFD1642536AEF50084F04B /* widgetloverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1632536AEF50084F04B /* widgetloverApp.swift */; };
+		EDCFD1662536AEF50084F04B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1652536AEF50084F04B /* ContentView.swift */; };
+		EDCFD1682536AEF60084F04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCFD1672536AEF60084F04B /* Assets.xcassets */; };
+		EDCFD16B2536AEF60084F04B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCFD16A2536AEF60084F04B /* Preview Assets.xcassets */; };
+		EDCFD16D2536AEF60084F04B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD16C2536AEF60084F04B /* Persistence.swift */; };
+		EDCFD1702536AEF60084F04B /* widgetlover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD16E2536AEF60084F04B /* widgetlover.xcdatamodeld */; };
+		EDCFD17F2536B97F0084F04B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCFD17E2536B97F0084F04B /* WidgetKit.framework */; };
+		EDCFD1812536B97F0084F04B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCFD1802536B97F0084F04B /* SwiftUI.framework */; };
+		EDCFD1842536B97F0084F04B /* widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1832536B97F0084F04B /* widgets.swift */; };
+		EDCFD1872536B9800084F04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCFD1862536B9800084F04B /* Assets.xcassets */; };
+		EDCFD1892536B9800084F04B /* widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1852536B97F0084F04B /* widgets.intentdefinition */; };
+		EDCFD18A2536B9800084F04B /* widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1852536B97F0084F04B /* widgets.intentdefinition */; };
+		EDCFD18D2536B9800084F04B /* widgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDCFD17C2536B97F0084F04B /* widgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDCFD1AF2536C2490084F04B /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1AE2536C2490084F04B /* Battery.swift */; };
+		EDCFD1B02536C2490084F04B /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1AE2536C2490084F04B /* Battery.swift */; };
+		EDCFD1BB2536C9E70084F04B /* BatteryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1B92536C9E70084F04B /* BatteryWidget.swift */; };
+		EDCFD1CC2536D1A30084F04B /* batteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1CB2536D1A30084F04B /* batteryView.swift */; };
+		EDCFD1CD2536D1A30084F04B /* batteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1CB2536D1A30084F04B /* batteryView.swift */; };
+		EDCFD1D72536D4620084F04B /* Progress-Bar in Frameworks */ = {isa = PBXBuildFile; productRef = EDCFD1D62536D4620084F04B /* Progress-Bar */; };
+		EDCFD1DB2536D4FF0084F04B /* Progress-Bar in Frameworks */ = {isa = PBXBuildFile; productRef = EDCFD1DA2536D4FF0084F04B /* Progress-Bar */; };
+		EDCFD1E02536F08D0084F04B /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1DF2536F08D0084F04B /* UIColor+hex.swift */; };
+		EDCFD1E52536F2E50084F04B /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1DF2536F08D0084F04B /* UIColor+hex.swift */; };
+		EDCFD1E8253709B50084F04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCFD1672536AEF60084F04B /* Assets.xcassets */; };
+		EDCFD1EF253815460084F04B /* clockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1ED253815450084F04B /* clockView.swift */; };
+		EDCFD1F32538173A0084F04B /* ClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1F22538173A0084F04B /* ClockWidget.swift */; };
+		EDCFD1FD25381D090084F04B /* clockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD1ED253815450084F04B /* clockView.swift */; };
+		EDCFD20125382CEB0084F04B /* MainWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD20025382CEB0084F04B /* MainWidgets.swift */; };
+		EDCFD2052538375E0084F04B /* quickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD2042538375E0084F04B /* quickStartView.swift */; };
+		EDCFD2062538375E0084F04B /* quickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD2042538375E0084F04B /* quickStartView.swift */; };
+		EDCFD20A2538414F0084F04B /* QuickStartWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFD2092538414F0084F04B /* QuickStartWidgets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDCFD18B2536B9800084F04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCFD1582536AEF40084F04B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCFD17B2536B97F0084F04B;
+			remoteInfo = widgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDCFD1912536B9800084F04B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDCFD18D2536B9800084F04B /* widgetsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED37E56C25392F94001265DA /* calenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderView.swift; sourceTree = "<group>"; };
+		ED37E5732539304F001265DA /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
+		ED37E578253930CA001265DA /* Calender+Date Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calender+Date Extension.swift"; sourceTree = "<group>"; };
+		ED37E57D253931F4001265DA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ED37E584253933F1001265DA /* CalenderWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderWidget.swift; sourceTree = "<group>"; };
+		ED37E58925394D22001265DA /* countdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdownView.swift; sourceTree = "<group>"; };
+		ED37E59025394F28001265DA /* CountDownWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownWidget.swift; sourceTree = "<group>"; };
+		ED37E5942539511A001265DA /* CountDownIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CountDownIntent.intentdefinition; sourceTree = "<group>"; };
+		ED37E59D2539779B001265DA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		ED37E5AF25399265001265DA /* weatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherView.swift; sourceTree = "<group>"; };
+		ED37E5B625399273001265DA /* WeatherHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHandler.swift; sourceTree = "<group>"; };
+		ED37E5BB25399854001265DA /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		ED37E5C025399BFE001265DA /* WeatherDataFliter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataFliter.swift; sourceTree = "<group>"; };
+		ED37E5C525399F17001265DA /* WeatherVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVM.swift; sourceTree = "<group>"; };
+		ED5AE58E253AB13F000EE882 /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
+		EDCFD1602536AEF50084F04B /* widgetlover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widgetlover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCFD1632536AEF50084F04B /* widgetloverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetloverApp.swift; sourceTree = "<group>"; };
+		EDCFD1652536AEF50084F04B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDCFD1672536AEF60084F04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCFD16A2536AEF60084F04B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDCFD16C2536AEF60084F04B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EDCFD16F2536AEF60084F04B /* widgetlover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = widgetlover.xcdatamodel; sourceTree = "<group>"; };
+		EDCFD1712536AEF60084F04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCFD17C2536B97F0084F04B /* widgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCFD17E2536B97F0084F04B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EDCFD1802536B97F0084F04B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EDCFD1832536B97F0084F04B /* widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgets.swift; sourceTree = "<group>"; };
+		EDCFD1852536B97F0084F04B /* widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widgets.intentdefinition; sourceTree = "<group>"; };
+		EDCFD1862536B9800084F04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCFD1882536B9800084F04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCFD1AE2536C2490084F04B /* Battery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		EDCFD1B92536C9E70084F04B /* BatteryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryWidget.swift; sourceTree = "<group>"; };
+		EDCFD1CB2536D1A30084F04B /* batteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batteryView.swift; sourceTree = "<group>"; };
+		EDCFD1DF2536F08D0084F04B /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		EDCFD1ED253815450084F04B /* clockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockView.swift; sourceTree = "<group>"; };
+		EDCFD1F22538173A0084F04B /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
+		EDCFD20025382CEB0084F04B /* MainWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWidgets.swift; sourceTree = "<group>"; };
+		EDCFD2042538375E0084F04B /* quickStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickStartView.swift; sourceTree = "<group>"; };
+		EDCFD2092538414F0084F04B /* QuickStartWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartWidgets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCFD15D2536AEF50084F04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFD1D72536D4620084F04B /* Progress-Bar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFD1792536B97F0084F04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFD1812536B97F0084F04B /* SwiftUI.framework in Frameworks */,
+				EDCFD17F2536B97F0084F04B /* WidgetKit.framework in Frameworks */,
+				EDCFD1DB2536D4FF0084F04B /* Progress-Bar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED37E56B25392F29001265DA /* calender widget */ = {
+			isa = PBXGroup;
+			children = (
+				ED37E56C25392F94001265DA /* calenderView.swift */,
+				ED37E5732539304F001265DA /* CalenderHelper.swift */,
+			);
+			path = "calender widget";
+			sourceTree = "<group>";
+		};
+		ED37E58825394CF8001265DA /* countdown widget */ = {
+			isa = PBXGroup;
+			children = (
+				ED37E58925394D22001265DA /* countdownView.swift */,
+			);
+			path = "countdown widget";
+			sourceTree = "<group>";
+		};
+		ED37E5AE25399249001265DA /* weather widget */ = {
+			isa = PBXGroup;
+			children = (
+				ED37E5AF25399265001265DA /* weatherView.swift */,
+				ED37E5B625399273001265DA /* WeatherHandler.swift */,
+				ED37E5C025399BFE001265DA /* WeatherDataFliter.swift */,
+				ED37E5BB25399854001265DA /* WeatherData.swift */,
+				ED37E5C525399F17001265DA /* WeatherVM.swift */,
+			);
+			path = "weather widget";
+			sourceTree = "<group>";
+		};
+		EDCFD1572536AEF40084F04B = {
+			isa = PBXGroup;
+			children = (
+				EDCFD1DE2536F0530084F04B /* Extension */,
+				EDCFD1AD2536C2140084F04B /* model */,
+				EDCFD1622536AEF50084F04B /* widgetlover */,
+				EDCFD1822536B97F0084F04B /* widgets */,
+				EDCFD17D2536B97F0084F04B /* Frameworks */,
+				EDCFD1612536AEF50084F04B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCFD1612536AEF50084F04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFD1602536AEF50084F04B /* widgetlover.app */,
+				EDCFD17C2536B97F0084F04B /* widgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCFD1622536AEF50084F04B /* widgetlover */ = {
+			isa = PBXGroup;
+			children = (
+				ED37E5AE25399249001265DA /* weather widget */,
+				ED37E58825394CF8001265DA /* countdown widget */,
+				ED37E56B25392F29001265DA /* calender widget */,
+				EDCFD1632536AEF50084F04B /* widgetloverApp.swift */,
+				EDCFD1652536AEF50084F04B /* ContentView.swift */,
+				EDCFD1672536AEF60084F04B /* Assets.xcassets */,
+				EDCFD16C2536AEF60084F04B /* Persistence.swift */,
+				EDCFD1712536AEF60084F04B /* Info.plist */,
+				EDCFD16E2536AEF60084F04B /* widgetlover.xcdatamodeld */,
+				EDCFD1692536AEF60084F04B /* Preview Content */,
+				EDCFD1CB2536D1A30084F04B /* batteryView.swift */,
+				EDCFD1ED253815450084F04B /* clockView.swift */,
+				EDCFD2042538375E0084F04B /* quickStartView.swift */,
+			);
+			path = widgetlover;
+			sourceTree = "<group>";
+		};
+		EDCFD1692536AEF60084F04B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFD16A2536AEF60084F04B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDCFD17D2536B97F0084F04B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFD17E2536B97F0084F04B /* WidgetKit.framework */,
+				EDCFD1802536B97F0084F04B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDCFD1822536B97F0084F04B /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFD1832536B97F0084F04B /* widgets.swift */,
+				EDCFD1852536B97F0084F04B /* widgets.intentdefinition */,
+				ED37E5942539511A001265DA /* CountDownIntent.intentdefinition */,
+				EDCFD1B92536C9E70084F04B /* BatteryWidget.swift */,
+				EDCFD1862536B9800084F04B /* Assets.xcassets */,
+				EDCFD1882536B9800084F04B /* Info.plist */,
+				EDCFD1F22538173A0084F04B /* ClockWidget.swift */,
+				EDCFD20025382CEB0084F04B /* MainWidgets.swift */,
+				EDCFD2092538414F0084F04B /* QuickStartWidgets.swift */,
+				ED37E584253933F1001265DA /* CalenderWidget.swift */,
+				ED37E59025394F28001265DA /* CountDownWidget.swift */,
+				ED5AE58E253AB13F000EE882 /* WeatherWidget.swift */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		EDCFD1AD2536C2140084F04B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFD1AE2536C2490084F04B /* Battery.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EDCFD1DE2536F0530084F04B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED37E57D253931F4001265DA /* Constant.swift */,
+				EDCFD1DF2536F08D0084F04B /* UIColor+hex.swift */,
+				ED37E578253930CA001265DA /* Calender+Date Extension.swift */,
+				ED37E59D2539779B001265DA /* LocationManager.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCFD15F2536AEF50084F04B /* widgetlover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCFD1742536AEF60084F04B /* Build configuration list for PBXNativeTarget "widgetlover" */;
+			buildPhases = (
+				EDCFD15C2536AEF50084F04B /* Sources */,
+				EDCFD15D2536AEF50084F04B /* Frameworks */,
+				EDCFD15E2536AEF50084F04B /* Resources */,
+				EDCFD1912536B9800084F04B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCFD18C2536B9800084F04B /* PBXTargetDependency */,
+			);
+			name = widgetlover;
+			packageProductDependencies = (
+				EDCFD1D62536D4620084F04B /* Progress-Bar */,
+			);
+			productName = widgetlover;
+			productReference = EDCFD1602536AEF50084F04B /* widgetlover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDCFD17B2536B97F0084F04B /* widgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCFD18E2536B9800084F04B /* Build configuration list for PBXNativeTarget "widgetsExtension" */;
+			buildPhases = (
+				EDCFD1782536B97F0084F04B /* Sources */,
+				EDCFD1792536B97F0084F04B /* Frameworks */,
+				EDCFD17A2536B97F0084F04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetsExtension;
+			packageProductDependencies = (
+				EDCFD1DA2536D4FF0084F04B /* Progress-Bar */,
+			);
+			productName = widgetsExtension;
+			productReference = EDCFD17C2536B97F0084F04B /* widgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCFD1582536AEF40084F04B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EDCFD15F2536AEF50084F04B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					EDCFD17B2536B97F0084F04B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EDCFD15B2536AEF40084F04B /* Build configuration list for PBXProject "widgetlover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCFD1572536AEF40084F04B;
+			packageReferences = (
+				EDCFD1D52536D4620084F04B /* XCRemoteSwiftPackageReference "Progress-Bar-SwifttUI" */,
+			);
+			productRefGroup = EDCFD1612536AEF50084F04B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCFD15F2536AEF50084F04B /* widgetlover */,
+				EDCFD17B2536B97F0084F04B /* widgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCFD15E2536AEF50084F04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFD16B2536AEF60084F04B /* Preview Assets.xcassets in Resources */,
+				EDCFD1682536AEF60084F04B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFD17A2536B97F0084F04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFD1E8253709B50084F04B /* Assets.xcassets in Resources */,
+				EDCFD1872536B9800084F04B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCFD15C2536AEF50084F04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFD1AF2536C2490084F04B /* Battery.swift in Sources */,
+				ED37E59E2539779B001265DA /* LocationManager.swift in Sources */,
+				EDCFD1FD25381D090084F04B /* clockView.swift in Sources */,
+				ED37E58A25394D22001265DA /* countdownView.swift in Sources */,
+				EDCFD1E02536F08D0084F04B /* UIColor+hex.swift in Sources */,
+				EDCFD1702536AEF60084F04B /* widgetlover.xcdatamodeld in Sources */,
+				ED37E5BC25399854001265DA /* WeatherData.swift in Sources */,
+				EDCFD1CC2536D1A30084F04B /* batteryView.swift in Sources */,
+				ED37E5C125399BFE001265DA /* WeatherDataFliter.swift in Sources */,
+				EDCFD16D2536AEF60084F04B /* Persistence.swift in Sources */,
+				EDCFD1662536AEF50084F04B /* ContentView.swift in Sources */,
+				ED37E59A253961FE001265DA /* CountDownIntent.intentdefinition in Sources */,
+				ED37E57E253931F4001265DA /* Constant.swift in Sources */,
+				ED37E579253930CA001265DA /* Calender+Date Extension.swift in Sources */,
+				ED37E56D25392F94001265DA /* calenderView.swift in Sources */,
+				ED37E5B025399265001265DA /* weatherView.swift in Sources */,
+				EDCFD2052538375E0084F04B /* quickStartView.swift in Sources */,
+				ED37E5742539304F001265DA /* CalenderHelper.swift in Sources */,
+				ED37E5B725399273001265DA /* WeatherHandler.swift in Sources */,
+				EDCFD18A2536B9800084F04B /* widgets.intentdefinition in Sources */,
+				EDCFD1642536AEF50084F04B /* widgetloverApp.swift in Sources */,
+				ED37E5C625399F17001265DA /* WeatherVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFD1782536B97F0084F04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED37E5752539304F001265DA /* CalenderHelper.swift in Sources */,
+				ED37E585253933F1001265DA /* CalenderWidget.swift in Sources */,
+				ED37E5C225399BFE001265DA /* WeatherDataFliter.swift in Sources */,
+				ED37E58B25394D22001265DA /* countdownView.swift in Sources */,
+				ED5AE58F253AB13F000EE882 /* WeatherWidget.swift in Sources */,
+				ED37E5C725399F17001265DA /* WeatherVM.swift in Sources */,
+				ED37E59125394F28001265DA /* CountDownWidget.swift in Sources */,
+				EDCFD20125382CEB0084F04B /* MainWidgets.swift in Sources */,
+				ED37E57F253931F4001265DA /* Constant.swift in Sources */,
+				EDCFD1892536B9800084F04B /* widgets.intentdefinition in Sources */,
+				ED37E5B125399265001265DA /* weatherView.swift in Sources */,
+				ED37E56E25392F94001265DA /* calenderView.swift in Sources */,
+				ED37E5B825399273001265DA /* WeatherHandler.swift in Sources */,
+				EDCFD1CD2536D1A30084F04B /* batteryView.swift in Sources */,
+				EDCFD1BB2536C9E70084F04B /* BatteryWidget.swift in Sources */,
+				ED37E5BD25399854001265DA /* WeatherData.swift in Sources */,
+				EDCFD1EF253815460084F04B /* clockView.swift in Sources */,
+				EDCFD20A2538414F0084F04B /* QuickStartWidgets.swift in Sources */,
+				ED37E59F2539779B001265DA /* LocationManager.swift in Sources */,
+				EDCFD1F32538173A0084F04B /* ClockWidget.swift in Sources */,
+				EDCFD1E52536F2E50084F04B /* UIColor+hex.swift in Sources */,
+				EDCFD2062538375E0084F04B /* quickStartView.swift in Sources */,
+				EDCFD1842536B97F0084F04B /* widgets.swift in Sources */,
+				ED37E5952539511A001265DA /* CountDownIntent.intentdefinition in Sources */,
+				ED37E57A253930CA001265DA /* Calender+Date Extension.swift in Sources */,
+				EDCFD1B02536C2490084F04B /* Battery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDCFD18C2536B9800084F04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCFD17B2536B97F0084F04B /* widgetsExtension */;
+			targetProxy = EDCFD18B2536B9800084F04B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDCFD1722536AEF60084F04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCFD1732536AEF60084F04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCFD1752536AEF60084F04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"widgetlover/Preview Content\"";
+				DEVELOPMENT_TEAM = G2JS9GCE3U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = widgetlover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggen.io.widgetlover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCFD1762536AEF60084F04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"widgetlover/Preview Content\"";
+				DEVELOPMENT_TEAM = G2JS9GCE3U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = widgetlover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggen.io.widgetlover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDCFD18F2536B9800084F04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2JS9GCE3U;
+				INFOPLIST_FILE = widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggen.io.widgetlover.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCFD1902536B9800084F04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2JS9GCE3U;
+				INFOPLIST_FILE = widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggen.io.widgetlover.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCFD15B2536AEF40084F04B /* Build configuration list for PBXProject "widgetlover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFD1722536AEF60084F04B /* Debug */,
+				EDCFD1732536AEF60084F04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCFD1742536AEF60084F04B /* Build configuration list for PBXNativeTarget "widgetlover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFD1752536AEF60084F04B /* Debug */,
+				EDCFD1762536AEF60084F04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCFD18E2536B9800084F04B /* Build configuration list for PBXNativeTarget "widgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFD18F2536B9800084F04B /* Debug */,
+				EDCFD1902536B9800084F04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDCFD1D52536D4620084F04B /* XCRemoteSwiftPackageReference "Progress-Bar-SwifttUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AmeddahAchraf/Progress-Bar-SwifttUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDCFD1D62536D4620084F04B /* Progress-Bar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCFD1D52536D4620084F04B /* XCRemoteSwiftPackageReference "Progress-Bar-SwifttUI" */;
+			productName = "Progress-Bar";
+		};
+		EDCFD1DA2536D4FF0084F04B /* Progress-Bar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCFD1D52536D4620084F04B /* XCRemoteSwiftPackageReference "Progress-Bar-SwifttUI" */;
+			productName = "Progress-Bar";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EDCFD16E2536AEF60084F04B /* widgetlover.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDCFD16F2536AEF60084F04B /* widgetlover.xcdatamodel */,
+			);
+			currentVersion = EDCFD16F2536AEF60084F04B /* widgetlover.xcdatamodel */;
+			path = widgetlover.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDCFD1582536AEF40084F04B /* Project object */;
+}
